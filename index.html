@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./responsive_navbar.css">
+    <link rel="stylesheet" href="./responsive_index.css">    
+    <link rel="stylesheet" href="./responsive_footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="navigation">
+            <figure class="logo">
+                <img src="image/logo/logo.png" alt="logo-sekolah">
+            </figure>
+            <nav id="navbar" class="overlay">    
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>        
+                <div class="overlay-content">
+                    <a class="active" href="/index.html">Beranda</a>
+                    <a href="#article-activity">Tentang Kami</a>
+                    <div class="subnav">
+                        <button class="subnavbtn">Kategori <img src="./image/icon/down.png"></button>
+                        <div class="subnav-content">
+                          <a href="#company">Kegiatan Sekolah</a>
+                          <a href="#team">Prestasi</a>
+                          <a href="#careers">Ekstrakulikuler</a>
+                        </div>
+                    </div> 
+                    <a href="#article-bussiness">Usaha</a>
+                    <a href="">Lokasi</a>
+                    <a href="staff.html">Staff</a>
+                </div>
+                <figure class="sosmed">
+                    <img src="/image/icon/youtube.svg" alt="youtube">
+                    <img src="/image/icon/facebook.svg" alt="facebook">
+                    <img src="/image/icon/instagram.svg" alt="instagram">
+                </figure>
+            </nav>            
+            <figure class="menu">
+                <img src="/image/icon/menu.svg" alt="menu" onclick="openNav()">
+            </figure>
+        </section>
+        <section class="content-header">
+            <figure>
+                <img class="hero-image" src="/image/hero/hero_image.png" alt="">
+            </figure>
+           <div class="text-header">
+                <div class="tagline-header">
+                    <p>Sekolah Dasar Negeri Tumpakrejo 3</p>
+                </div>
+                <div class="description-header">
+                    <p>Menerapkan pembelajaran yang baik untuk mencapai murid yang berprestasi dan berakhlak</p>
+                </div>
+           </div>
+        </section>
+    </header>
+    <main>
+        <article class="about-us">
+            <section class="content-about">
+                <section class="text-about-us">
+                    <section class="tagline-about-us">
+                        <p>Bergabung dan Mulailah Belajar Bersama Kami</p>
+                    </section>
+                    <section class="description-about-us">
+                        <p>Melakukan semua usaha semaksimal mungkin untuk meraih prestasi dibidang Akademik dan Non Akademik. Raihan prestasi yang diperoleh tak luput dari nilai-nilai ajaran agama dan etika yang diajarkan kepada murid. Selain itu kualitas para guru yang berkualitas menjadi tolak ukur dimana murid dapat berkembang dengan baik.</p>
+                        <p>Selain itu juga lingkungan sekolah yang menerapkan adiwiyata sehingga membuat kualitas udara yang dihirup sangat bagus untuk alur pembelajaran sehingga peserta didik dapat belajar dengan baik agar memiliki pengetahuan dan keterampilan yang berguna untuk dirinya dan masyarakat.</p>
+                    </section>
+                </section>
+                <section class="card">
+                    <div class="list-card">
+                        <div class="card-about">
+                            <div class="content-card">
+                                <div class="text-card">
+                                    <div class="moto">
+                                        <p>Belajar tidak ada habisnya karena itu kejarlah ilmu sepanjang hidupmu</p>
+                                    </div>
+                                    <div class="name-position">
+                                        <div class="name">
+                                            <p>Prayuda Riansyah</p>
+                                        </div>
+                                        <div class="position">
+                                            <p>kepala SDN Tumpakrejo 3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figure class="card-image">
+                                    <img  class="image-card" src="/image/image-teacher/kepala-sekolah.png" alt="kepala-sekolah">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="card-about">
+                            <div class="content-card">
+                                <div class="text-card">
+                                    <div class="moto">
+                                        <p>Kalo sudah terlanjur kecelup jangan takut untuk basah</p>
+                                    </div>
+                                    <div class="name-position">
+                                        <div class="name">
+                                            <p>Prayuda</p>
+                                        </div>
+                                        <div class="position">
+                                            <p>Wakil Kepala SDN Tumpakrejo 3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figure class="card-image">
+                                    <img  class="image-card" src="/image/image-teacher/wakil-kepala-sekolah.png" alt="wakil-kepala-sekolah">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="profile-school">
+                <iframe class="video-profile" src="https://www.youtube.com/embed/iUPz01ijNoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="visi-misi">
+                    <div class="visi">
+                        <div class="tagline-visi">
+                            <p>Visi SD Negeri 3 Tumpakrejo</p>
+                        </div>
+                        <div class="description-visi">
+                            <p>Beriman, Berilmu, Berahklak, Nasionalis, dan Cinta Lingkungan</p>
+                        </div>
+                    </div>
+                    <div class="misi">
+                        <div class="tagline-misi">
+                            <p>Visi SD Negeri 3 Tumpakrejo</p>
+                        </div>
+                        <div class="description-misi">
+                            <p>1. Menciptakan peserta didik yang aktif, kreatif, dan inovatif</p>
+                            <p>2. Mengembangkan intelektual dan spiritual untuk membentuk pribadi yang berketuhanan Yang Maha Esa</p>
+                            <p>3. Membentuk karakter peserta didik yang berahklak mulia, berbudaya, dan peduli lingkungan</p>
+                            <p>4. Menciptakan lingkungan yang bersih, ijo royo-royo dan aman</p>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article class="school-activity">
+            <section class="tagline-school-activity">
+                <p>Kegiatan Sekolah</p>
+            </section>
+            <section class="list-activity">
+                <div class="card-activity">
+                   <div class="content-activity">
+                    <figure>
+                        <img class="image-activity" src="/image/activity/Image-Activity-1.png" alt="baca-yasin">
+                    </figure>
+                    <div class="text-activity">
+                        <time datetime="2023-02-02">2 Febuari 2023</time>
+                        <summary>Upacara setiap hari senin merupakan kegiatan yang selalu dilakukan dimana tujuan dari upacara adalah untuk mengenang jasa dari para pahlawan yang tel</summary>
+                    </div>
+                   </div>
+                   <button class="baca-selengkapnya">Baca Selengkapnya</button>
+                </div>
+                <div class="card-activity">
+                    <div class="content-activity">
+                     <figure>
+                         <img class="image-activity" src="/image/activity/Image-Activity-1.png" alt="baca-yasin">
+                     </figure>
+                     <div class="text-activity">
+                         <time datetime="2023-02-02">2 Febuari 2023</time>
+                         <summary>Upacara setiap hari senin merupakan kegiatan yang selalu dilakukan dimana tujuan dari upacara adalah untuk mengenang jasa dari para pahlawan yang tel</summary>
+                     </div>
+                    </div>
+                    <button class="baca-selengkapnya">Baca Selengkapnya</button>
+                </div>
+                <div class="card-activity">
+                    <div class="content-activity">
+                     <figure>
+                         <img class="image-activity" src="/image/activity/Image-Activity-1.png" alt="baca-yasin">
+                     </figure>
+                     <div class="text-activity">
+                         <time datetime="2023-02-02">2 Febuari 2023</time>
+                         <summary>Upacara setiap hari senin merupakan kegiatan yang selalu dilakukan dimana tujuan dari upacara adalah untuk mengenang jasa dari para pahlawan yang tel</summary>
+                     </div>
+                    </div>
+                    <button class="baca-selengkapnya">Baca Selengkapnya</button>
+                 </div> 
+            </section>
+        </article>
+        <article class="school-achievment">
+            <div class="description-school-achievment">
+                <p>Raihan yang diraih oleh peserta didik tidak luput dari bagaimana baiknya sistem belajar mengajar yang diberikan sekolah kepada mereka. Prestasi-prestasi yang diperoleh tersebut akan membentuk rasa kompetitif sejak dini agar peserta didik mampu berjuang di luar suatu saat nanti.</p>
+            </div>
+            <div class="list-achievment">
+                <section class="card-achievment">
+                    <figure>
+                        <img class="image-achievment" src="/image/achievment/achievment-1.png" alt="achiement">
+                    </figure>
+                    <button class="btn-achievment"><a href="">LAGAMASEDA VI</a></button>
+                </section>
+                <section class="card-achievment">
+                    <figure>
+                        <img class="image-achievment" src="/image/achievment/achievment-1.png" alt="achiement">
+                    </figure>
+                    <button class="btn-achievment"><a href="">LAGAMASEDA VI</a></button>
+                </section>
+                <section class="card-achievment">
+                    <figure>
+                        <img class="image-achievment" src="/image/achievment/achievment-1.png" alt="achiement">
+                    </figure>
+                    <button class="btn-achievment"><a href="">LAGAMASEDA VI</a></button>
+                </section>
+            </div>
+        </article>
+        <article class="school-extracurricular">
+            <section class="tagline-school-extracurricular">
+                <p>Ekstrakulikuler</p>
+            </section>
+            <div class="list-extracurricular">
+                <section class="card-extracurricular">
+                    <figure class="border-ekstracurricular">
+                        <img class="image-exctracurricular" src="/image/ekstracurricular/gerakan-pramuka.png" alt="gerakan-pramuka">
+                    </figure>
+                    <div class="text-extracurricular">
+                        <div class="name-extracurricular">
+                            <p>Gerakan Pramuka</p>
+                        </div>
+                        <span></span>
+                        <div class="description-extracurricular">
+                            <div class="activity-extracurricular">
+                                <div class="name-activity-extracurricular">
+                                    <p>Aktivitas</p>
+                                </div>
+                                <div class="description-activity-extracurricular">
+                                    <p>Peserta didik akan diajarkan mengenai apa itu kepramukaan, bagaimana rasanya bertanggun jawab bagi diri sendiri ataupun orang lain dalam bentuk tim. Pramuka juga mengajarkan spiritualisme yang tinggi agar para peserta didik tidak melupakan tuhan yang telah menciptakannya.</p>
+                                </div>
+                            </div>
+                            <div class="team-extracurricular">
+                                <div class="name-team-extracurricular">
+                                    <p>Pastuga</p>
+                                </div>
+                                <div class="description-team-extracurricular">
+                                    <p>Pasukan Tumpak Rejo Tiga atau biasa dikenal dengan sebutan Pastuga adalah satuan pramuka dari SDN Tumpak Rejo 3. Pastuga sendiri merupakan salah satu pasukan terbaik yang dimiliki Desa Tumpak Rejo.</p>
+                                </div>
+                            </div>
+                            <div class="achievment-extracurricular">
+                                <div class="name-achievment-extracurricular">
+                                    <p>Prestasi</p>
+                                </div>
+                                <div class="description-achievment-extracurricular">
+                                    <p>Beberapa kali pramuka SDN Tumpak Rejo 3 sudah memenangkan lomba-lomba mulai dari tingkat daerah hingga provinsi dan bahkan mengirim beberapa murid untuk menjadi perwakilan pada tingkat nasional.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="link-detail-extracurricular">
+                            <a href="">Pelajari lebih lanjut</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-extracurricular">
+                    <figure class="border-ekstracurricular">
+                        <img class="image-exctracurricular" src="/image/ekstracurricular/gerakan-pramuka.png" alt="gerakan-pramuka">
+                    </figure>
+                    <div class="text-extracurricular">
+                        <div class="name-extracurricular">
+                            <p>Gerakan Pramuka</p>
+                        </div>
+                        <span></span>
+                        <div class="description-extracurricular">
+                            <div class="activity-extracurricular">
+                                <div class="name-activity-extracurricular">
+                                    <p>Aktivitas</p>
+                                </div>
+                                <div class="description-activity-extracurricular">
+                                    <p>Peserta didik akan diajarkan mengenai apa itu kepramukaan, bagaimana rasanya bertanggun jawab bagi diri sendiri ataupun orang lain dalam bentuk tim. Pramuka juga mengajarkan spiritualisme yang tinggi agar para peserta didik tidak melupakan tuhan yang telah menciptakannya.</p>
+                                </div>
+                            </div>
+                            <div class="team-extracurricular">
+                                <div class="name-team-extracurricular">
+                                    <p>Pastuga</p>
+                                </div>
+                                <div class="description-team-extracurricular">
+                                    <p>Pasukan Tumpak Rejo Tiga atau biasa dikenal dengan sebutan Pastuga adalah satuan pramuka dari SDN Tumpak Rejo 3. Pastuga sendiri merupakan salah satu pasukan terbaik yang dimiliki Desa Tumpak Rejo.</p>
+                                </div>
+                            </div>
+                            <div class="achievment-extracurricular">
+                                <div class="name-achievment-extracurricular">
+                                    <p>Prestasi</p>
+                                </div>
+                                <div class="description-achievment-extracurricular">
+                                    <p>Beberapa kali pramuka SDN Tumpak Rejo 3 sudah memenangkan lomba-lomba mulai dari tingkat daerah hingga provinsi dan bahkan mengirim beberapa murid untuk menjadi perwakilan pada tingkat nasional.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="link-detail-extracurricular">
+                            <a href="">Pelajari lebih lanjut</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <section>
+            <div class="school">
+                <div class="name-location-school">
+                    <div class="name-school">
+                        <p>Sekolah Dasar Negeri Tumpakrejo 3</p>
+                    </div>
+                    <div class="address-school">
+                        <p>Jl.Raya Gombangan RT. 35 RW. 07 Tumpakrejo, Kec. Gedangan, Kab. Malang Prov. Jawa Timur</p>
+                    </div>                    
+                </div>
+                <div class="information-contact-school">
+                    <p>Kontak Sekolah</p>
+                    <div class="contact-school">
+                        <div class="phone-number">
+                            <p><a href="">+6283150993913</a></p>
+                        </div>
+                        <div class="email-school">
+                            <p><a href="">prayudariansyah1412@gmail.com</a></p>
+                        </div>
+                        <div class="time-operational-school">
+                            <p>08.00 - 14.00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-navbar">
+            <figure class="footer-logo">
+                <img src="image/logo/logo.png" alt="logo-sekolah">
+            </figure>
+            <nav class="footer-navigation">                    
+                <div class="footer-navigation-content">
+                    <a class="active" href="/index.html">Beranda</a>
+                    <a href="#article-activity">Tentang Kami</a>
+                    <div class="footer-subnav">
+                        <button class="footer-subnavbtn">Kategori<img src="./image/icon/down.png"></button>
+                        <div class="footer-subnav-content">
+                          <a href="">Kegiatan Sekolah</a>
+                          <a href="">Prestasi</a>
+                          <a href="">Ekstrakulikuler</a>
+                        </div>
+                    </div> 
+                    <a href="">Usaha</a>
+                    <a href="">Lokasi</a>
+                    <a href="staff.html">Staff</a>
+                </div>
+                <figure class="sosmed">
+                    <img src="/image/icon/youtube.svg" alt="youtube">
+                    <img src="/image/icon/facebook.svg" alt="facebook">
+                    <img src="/image/icon/instagram.svg" alt="instagram">
+                </figure>
+            </nav>            
+        </section>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("navbar").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("navbar").style.height = "0%";
+        }
+    </script> 
+</body>
+</html>
