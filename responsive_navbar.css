@@ -232,4 +232,9 @@ p {
   .subnav:hover .subnav-content {
     display: block;
   }
+  .sosmed{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 }
