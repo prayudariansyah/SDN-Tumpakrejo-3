@@ -22,6 +22,7 @@ p {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        width: 336px;
     }
     .overlay {
         height: 0%;
@@ -176,6 +177,10 @@ p {
     font-size: 16px;
     line-height: 24px;    
     color: #1B3761;    
+  }
+  .overlay-content .active{
+    color: #2c2c2c;
+    font-weight: 500;
   }
   .subnav{
     display: flex;
